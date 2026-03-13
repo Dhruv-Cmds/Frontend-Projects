@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+h1{
+    font-size:clamp(1.8rem,3vw,2.4rem);
+}
+
+h2{
+    font-size:clamp(1.2rem,2vw,1.6rem);
+}
+
+body{
+    margin:0;
+    font-family:'Inter', sans-serif;
+    background:#0d0d12;
+    color:#d6d6de;
+}
+
+/* HEADER */
+
+header{
+    background:#12121a;
+    text-align:center;
+    padding:24px;
+    border-bottom:1px solid #23232e;
+}
+
+header h1{
+    margin:0;
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:500;
+    color:#e9e9f1;
+}
+
+/* NAVIGATION */
+
+nav{
+    background:#101017;
+    border-bottom:1px solid #23232e;
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:12px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:16px;
+}
+
+nav li{
+    margin:0 16px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#a8a8b8;
+    font-size:14px;
+    transition:0.2s;
+}
+
+nav a:hover{
+    color:#c7a6ff;
+}
+
+/* MAIN */
+
+main{
+    padding:40px;
+    max-width:900px;
+    margin:auto;
+}
+
+/* SECTIONS */
+
+section{
+    background:#15151d;
+    padding:22px;
+    margin-bottom:22px;
+    border-radius:8px;
+    border:1px solid #242433;
+}
+
+/* INPUTS */
+
+textarea,
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:12px;
+    border-radius:6px;
+    border:1px solid #2a2a3a;
+    background:#0f0f16;
+    color:#e0e0e8;
+    font-family:'Inter', sans-serif;
+}
+
+/* BUTTON */
+
+button{
+    background:#7b5cff;
+    color:white;
+    border:none;
+    padding:9px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#6b4ef0;
+}
+
+/* TABLE */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    display:block;
+    overflow-x:auto;
+}
+
+th, td{
+    padding:10px;
+    border-bottom:1px solid #252536;
+    font-size:14px;
+}
+
+th{
+    text-align:left;
+    color:#c7a6ff;
+}
+
+/* IMAGE */
+
+figure{
+    text-align:center;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    border-radius:10px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:20px;
+    font-size:13px;
+    color:#8a8aa0;
+    border-top:1px solid #23232e;
+}
+
+section:hover{
+    border-color:#7b5cff;
+}
+
+
+@media (max-width:768px){
+
+main{
+    padding:25px 15px;
+}
+
+section{
+    padding:18px;
+}
+
+nav ul{
+    gap:10px;
+}
+
+button{
+    width:100%;
+}
+
+}

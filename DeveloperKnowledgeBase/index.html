@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Knowledge Base</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Developer Knowledge Base</h1>
+        <p>Notes while learning programming</p>
+    </header>
+
+    <nav>
+
+        <ul>
+            <li><a href="#notes">Notes</a></li>
+            <li><a href="#codes">Codes</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <section id="notes" class="reveal">
+
+            <h2>Developer Notes</h2>
+
+            <textarea name="notesArea" placeholder="Write notes here..."></textarea>
+            <br>
+            <button id="saveNotes">Save Notes</button>
+
+        </section>
+
+        <section id="codes">
+
+            <h2>Code Example</h2>
+
+            <article>
+
+<pre>
+<code>
+class BankAccount:
+    def deposit(self , amount):
+</code>
+</pre>
+                <input type="number" placeholder="Enter your amount" required>
+                <br>
+                <button>Enter</button>
+
+            </article>
+
+        </section>
+
+        <section id="resources" class="reveal">
+
+            <h2>Resources</h2>
+
+            <ul>
+                
+                <li><a href="https://developer.mozilla.org" target="_blank">MDN Docs</a></li>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://stackoverflow.com" target="_blank">StackOverflow</a></li>
+
+            </ul>
+
+        </section>
+
+        <section id="projects" class="reveal">
+
+            <h2>Projects</h2>
+
+            <table>
+
+                <thead>
+                    <!-- table row = tr -->
+                    <tr>
+                        <!-- table header = th -->
+                        <th>Project</th>
+                        <th>Language</th>
+                        <th>Type</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <!-- table data = tf -->
+                        <td>Operating System</td>
+                        <td>Python</td>
+                        <td>CLI</td>
+                    </tr>
+
+                    <tr>
+                        <td>Data Base</td>
+                        <td>Python</td>
+                        <td>CLI </td>
+                    </tr>
+
+                    <tr>
+                        <td>Atm</td>
+                        <td>Python</td>
+                        <td>CLI </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+            
+        </section>
+
+        <section id="media" class="reveal">
+
+            <h2>Media</h2>
+
+            <figure>
+
+                <img src="/img/content.png" alt="Dog image" width="250">
+                <figcaption>This photo contains Minecraft <strong>Dog photo</strong></figcaption>
+
+            </figure>
+            
+        </section>
+
+        <section id="feedback" class="reveal">
+
+            <h2>Feedback</h2>
+
+            <form id="contactForm">
+                <input name="name" placeholder="Name" required>
+                <br><br>
+                <input name="email" type="email" placeholder="Email" required>
+                <br><br>
+                <textarea placeholder="Message" required></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+            
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Developer Knowledge Base</p>
+    </footer>
+    
+</body>
+</html>
