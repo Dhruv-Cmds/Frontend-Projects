@@ -20,7 +20,7 @@ It includes practice projects where I explore:
 frontend-projects/
 │
 ├─ DeveloperKnowledgeBase/
-├─ img
+├─ img/
 ├─ LICENSE
 ├─ README.md
 └─ .gitattributes
