@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#191818ec,#737474);
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* header text */
+header{
+    position:absolute;
+    top:40px;
+    text-align:center;
+    color:white;
+}
+
+/* login card */
+main{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    padding:35px;
+    width:300px;
+
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+
+    text-align:center;
+}
+
+main h2{
+    margin-bottom:20px;
+    color:white;
+}
+
+/* form layout */
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+/* inputs */
+form input{
+    padding:12px;
+    margin-bottom:15px;
+
+    border:none;
+    border-radius:8px;
+
+    outline:none;
+}
+
+/* input focus */
+form input:focus{
+    box-shadow:0 0 0 2px #4facfe;
+}
+
+/* login button */
+form button{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+
+    background:#4facfe;
+    color:white;
+
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* button hover */
+form button:hover{
+    background:#2c8ef4;
+}
+
+/* forgot password */
+form a{
+    display: block;
+    margin-top:20px;
+    font-size:14px;
+    color:#dcdcdc;
+    text-decoration:none;
+}
+
+form a:hover{
+    text-decoration:underline;
+}
+
+/* footer register link */
+footer{
+    position:absolute;
+    bottom:30px;
+    color:white;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
