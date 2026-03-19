@@ -40,31 +40,31 @@ This repository is part of a web development learning journey. It includes pract
    git clone https://github.com/Dhruv-Cmds/web-dev-learning.git
 
 2. Navigate into the project directory:
-  ```
-  cd web-dev-learning
-  ```
+     ```
+     cd web-dev-learning
+     ```
 
 ## Usage
 
 Open any project folder:
-  ```
-  cd DeveloperKnowledgeBase
-  ```
+     ```
+     cd DeveloperKnowledgeBase
+     ```
 
 Run the project:
 
 Open the .html file directly in your browser
 
-Project Structure
-  ```
-  frontend-projects/
-  │
-  ├─ DeveloperKnowledgeBase/
-  ├─ img/
-  ├─ LICENSE
-  ├─ README.md
-  └─ .gitattributes
-  ```
+## Project Structure
+   ```
+   frontend-projects/
+   │
+   ├─ DeveloperKnowledgeBase/
+   ├─ img/
+   ├─ LICENSE
+   ├─ README.md
+   └─ .gitattributes   
+   ```
 
 ## Goal
 
@@ -80,19 +80,19 @@ This repository focuses only on frontend development. Without backend functional
 
 1. Fork the repository
 2. Create a new branch:
-  ```
-  git checkout -b feature/YourFeature
-  ```
+     ```
+     git checkout -b feature/YourFeature
+     ```
 
 3. Commit your changes:
-  ```
-  git commit -m "Add your feature"
-  ```
+     ```
+     git commit -m "Add your feature"
+     ```
 
-4. Push to the branch:
-  ```
-  git push origin feature/YourFeature
-  ```
+ 4. Push to the branch:
+     ```
+     git push origin feature/YourFeature
+     ```
 
 Open a pull request
 
