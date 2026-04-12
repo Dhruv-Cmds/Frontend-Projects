@@ -188,7 +188,7 @@ button{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-}
+} 
 
 /* CARD STYLE */
 .card {
@@ -219,7 +219,7 @@ button{
     font-weight: 500;
 }
 
-/* HOVER EFFECT 🔥 */
+/* HOVER EFFECT */
 .card:hover {
     transform: translateY(-5px) scale(1.02);
     border-color: #7b5cff;
@@ -227,6 +227,39 @@ button{
 }
 
 .card:hover a {
+    color: #c7a6ff;
+}
+
+/* PDF STYLE */
+.pdf {
+    background: #1a1a24;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid #2a2a3a;
+    cursor: pointer;
+}
+
+
+/* LINK */
+.pdf a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #d6d6de;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* HOVER EFFECT  */
+.pdf:hover {
+    transform: translateY(-5px) scale(1.02);
+    border-color: #7b5cff;
+    box-shadow: 0 10px 25px rgba(123, 92, 255, 0.2);
+}
+
+.pdf:hover a {
     color: #c7a6ff;
 }
 
