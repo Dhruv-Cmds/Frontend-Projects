@@ -263,42 +263,7 @@ button{
     color: #c7a6ff;
 }
 
+#note {
 
-.warning {
-    position: relative;
-    background: #2a1a1a;
-    color: #ffb3b3;
-    padding: 10px 20px;
-    border: 1px solid #ff4d4d;
-    border-radius: 6px;
-    margin-bottom: 15px;
-    font-size: 14px;
-    overflow: hidden;
-}
-
-/* moving text effect */
-.warning {
-    background: #2a1a1a;
-    border: 1px solid #ff4d4d;
-    border-radius: 6px;
-    overflow: hidden;
-    padding: 10px;
-}
-
-/* animated text */
-.warning-text {
-    display: inline-block;
-    white-space: nowrap;
-    color: #f00303;
-    animation: slide 10s linear infinite;
-}
-
-/* animation */
-@keyframes slide {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+    color: rgb(228, 89, 89);
 }

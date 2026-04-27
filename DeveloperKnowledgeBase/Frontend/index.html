@@ -11,74 +11,18 @@
 <body>
 
     <header>
-
-        <div class="warning">
-            <div class="warning-text">
-                ⚠️ This is a demo project. Do NOT store sensitive or personal information.
-            </div>
-        </div>
-
         <h1>Developer Knowledge Base</h1>
-        <p>Notes while learning programming</p>
         
     </header>
 
     <nav>
         <ul>
-            <li><a href="#notes">Notes</a></li>
             <li><a href="#resources">Resources</a></li>
             <li><a href="#pdf">PDFs</a></li>
         </ul>
     </nav>
 
     <main>
-
-        <!-- NOTES SECTION -->
-        <section id="notes" class="reveal">
-            <h2>Developer Notes</h2>
-
-            <textarea id="noteInput" placeholder="Write notes here..."></textarea>
-            <button onclick="saveNote()">Save Notes</button>
-
-            <div id="notesList"></div>
-
-        </section>
-
-        <script>
-            async function loadNotes() {
-                const res = await fetch("http://127.0.0.1:8000/notes");
-                const data = await res.json();
-
-                const container = document.getElementById("notesList");
-                container.innerHTML = "";
-
-                data.forEach(note => {
-                    const p = document.createElement("p");
-                    p.textContent = note.content;
-                    container.appendChild(p);
-                });
-            }
-
-            async function saveNote() {
-                const content = document.getElementById("noteInput").value;
-
-                await fetch("http://127.0.0.1:8000/save-note", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/x-www-form-urlencoded"
-                    },
-                    body: `content=${encodeURIComponent(content)}`
-                });
-
-                document.getElementById("noteInput").value = "";
-
-                loadNotes(); // 🔥 auto refresh after save
-            }
-
-            // load notes on page open
-            loadNotes();
-            </script>
-
         <!-- RESOURCES SECTION -->
         <section id="resources">
 
@@ -114,6 +58,20 @@
                     </a>
                 </div>
 
+                <div class="card">
+                    <a href="https://youtu.be/31k6AtW-b3Y?si=RqdWcsJchGbwEfLo" target="_blank">
+                        <img src="../img/Docker.jpg" alt="Docker">
+                        Docker Part 1
+                    </a>
+                </div>
+
+                <div class="card">
+                <a href="https://youtu.be/xPT8mXa-sJg?si=qQ6EOwDGl2e2favn" target="_blank">
+                        <img src="../img/Docker.jpg" alt="Docker">
+                        Docker Part 2
+                    </a>
+                </div>
+
             </div>
 
         </section>
@@ -122,17 +80,25 @@
 
             <h2>PDF's</h2>
 
+            <p id="note">Note: I do not own all the PDFs available here. This platform is designed to make them easily accessible to everyone.</p>
+
             <div class="resource-grid">
 
                 <div class="pdf">
-                    <a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/YouTube/The%20Ultimate%20Python%20Handbook.pdf" target="_blank">
+                    <a href="https://drive.google.com/file/d/1k6j3lAQKGjIrfwGDOdPRAlRPP5oh_oj7/view?usp=drive_link" target="_blank">
                         Python
                     </a>
                 </div>
 
                 <div class="pdf">
-                    <a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/YouTube/MySQL%20Handbook.pdf" target="_blank">
+                    <a href="https://drive.google.com/file/d/1wQFqGk_cLSZBLrKDeb-nzzp7c83QCT0-/view?usp=sharing" target="_blank">
                         Mysql
+                    </a>
+                </div>
+
+                <div class="pdf">
+                    <a href="https://drive.google.com/file/d/1hmaDcv81EFICYbse5gmnt3kpEfWBZ9ul/view?usp=sharing" target="_blank">
+                        Docker
                     </a>
                 </div>
 
