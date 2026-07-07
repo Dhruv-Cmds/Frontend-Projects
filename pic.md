@@ -4,3 +4,6 @@
 
 
 ![UI Preview](screenshots/card.png)
+
+
+![UI Preview](screenshots/multi_color_page.png)
