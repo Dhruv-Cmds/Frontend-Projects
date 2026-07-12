@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+        :root {
+            --nav: rgb(247, 141, 242);
+            --container: green;
+            --b1: rgb(255, 140, 140);
+            --b2: rgb(84, 137, 228);
+            --rectangle: rgb(0, 0, 0);
+            --footer: white;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .nav {
+            position: sticky;
+            top: 0px;
+            background-color: var(--nav);
+            width: 100vw;
+            height: 50px;
+
+        }
+
+        .container {
+            background-color: var(--container);
+            margin: 30px 30px;
+            text-align: center;
+        }
+
+        .box1 {
+            background-color: var(--b1);
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 12px 12px;
+        }
+
+        .box2 {
+            background-color: var(--b2);
+            height: 70vh;
+            width: 45%;
+            display: inline-block;
+            margin: 12px 12px;
+        }
+
+        .rectangle {
+            padding: 34px;
+            border: 2px solid white;
+            color: white;
+            text-align: center;
+            font-family: "Geist Pixel", sans-serif;
+            font-size: 56px;
+            background-color: var(--rectangle);
+            border-radius: 50px;
+            height: 200px;
+            width: 900px;
+            position: absolute;
+            margin: 40px 500px;
+        }
+        
+        .circle {
+            width: 40px;
+            height: 40px;
+            background-color: #ff0000;
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 60%;
+        }
+
+        .footer {
+            background-color: var(--footer);
+            width: 100vw;
+            height: 50px;
+            margin-top: 470px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav"></div>
+
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+
+    <div class="rectangle">
+        <p>Welcome to this Sigma Web Development Express</p>
+    </div>
+
+    <div class="circle"></div>
+
+    <div class="footer"></div>
+
+</body>
+
+</html>

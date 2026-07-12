@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>UltraEdit Header</title>
+
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link href="../style.css" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Poppins, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            
+            margin: auto;
+            max-width: 1200px;
+            width: 80%;
+        }
+
+        .nav-wrapper{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            height:90px;
+        }
+
+        body {
+            background: white;
+        }
+
+        .header {
+            margin: 20px 100px;
+            border: 2px solid ;
+            justify-content:space-between;
+            align-items:center;
+            height:90px;
+            display:flex;
+        }
+
+        .text h2 {
+            font-size: 30px;
+
+            font-weight: 600;
+        }
+
+        .text p {
+            font-size: 12px;
+            margin: 0 15px;
+        }
+
+        /* Navigation */
+
+        nav ul {
+            display: flex;
+            gap: 35px;
+            list-style: none;
+        }
+
+        nav a {
+            color: #333;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #777;
+        }
+
+
+        .right {
+            align-items: center;
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            background: #ffd633;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 12px 30px;
+        }
+
+        button:hover {
+            background: #f7c600;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+    
+        <div class="container">
+            
+            <div class="nav-wrapper">
+                
+                <!-- Logo -->
+                <div class="logo">
+        
+                    <div class="text">
+                        <h2>UltraEdit</h2>
+                        <p>By Embarcadero</p>
+                    </div>
+        
+                </div>
+        
+                <!-- Navigation -->
+                <nav>
+        
+                    <ul>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Buy</a></li>
+                        <li><a href="#">Renew</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Company</a></li>
+                    </ul>
+        
+                </nav>
+        
+                <!-- Right Side -->
+                <div class="right">
+        
+                    <button>Download</button>
+        
+                    <span>🌐 English</span>
+        
+                    <span>🔍</span>
+        
+                </div>
+                
+            </div>
+        </div>
+    
+    </header>
+
+</body>
+</html>
