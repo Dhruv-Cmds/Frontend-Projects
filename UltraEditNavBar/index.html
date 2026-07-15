@@ -19,17 +19,17 @@
         }
 
         .container {
-            
             margin: auto;
             max-width: 1200px;
             width: 80%;
         }
 
-        .nav-wrapper{
-            display:flex;
-            justify-content:space-between;
-            align-items:center;
-            height:90px;
+        .nav-wrapper {
+            align-items: center;
+            display: flex;
+            height: 90px;
+            justify-content: space-between;
+            margin: 0 -200px;
         }
 
         body {
@@ -37,12 +37,12 @@
         }
 
         .header {
+            align-items: center;
+            border: 2px solid;
+            display: flex;
+            height: 90px;
+            justify-content: space-between;
             margin: 20px 100px;
-            border: 2px solid ;
-            justify-content:space-between;
-            align-items:center;
-            height:90px;
-            display:flex;
         }
 
         .text h2 {
@@ -74,11 +74,10 @@
             color: #777;
         }
 
-
         .right {
             align-items: center;
             display: flex;
-            gap: 20px;
+            gap: 10px;
         }
 
         button {
@@ -99,51 +98,49 @@
 
 <body>
 
-    <header class="header">
-    
-        <div class="container">
-            
-            <div class="nav-wrapper">
-                
-                <!-- Logo -->
-                <div class="logo">
-        
-                    <div class="text">
-                        <h2>UltraEdit</h2>
-                        <p>By Embarcadero</p>
-                    </div>
-        
+<header class="header">
+
+    <div class="container">
+
+        <div class="nav-wrapper">
+
+            <!-- Logo -->
+            <div class="logo">
+                <div class="text">
+                    <h2>UltraEdit</h2>
+                    <p>By Embarcadero</p>
                 </div>
-        
-                <!-- Navigation -->
-                <nav>
-        
-                    <ul>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Buy</a></li>
-                        <li><a href="#">Renew</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">Company</a></li>
-                    </ul>
-        
-                </nav>
-        
-                <!-- Right Side -->
-                <div class="right">
-        
-                    <button>Download</button>
-        
-                    <span>🌐 English</span>
-        
-                    <span>🔍</span>
-        
-                </div>
-                
+
+            </div>
+
+            <!-- Navigation -->
+            <nav>
+
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Renew</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Learn</a></li>
+                    <li><a href="#">Company</a></li>
+                </ul>
+
+            </nav>
+
+            <!-- Right Side -->
+            <div class="right">
+
+                <button>Download</button>
+
+                <span class="enlish">🌐 English 🔍</span>
+
             </div>
         </div>
-    
-    </header>
+
+    </div>
+
+</header>
+
 
 </body>
 </html>
